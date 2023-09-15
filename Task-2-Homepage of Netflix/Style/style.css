@@ -11,6 +11,9 @@
     left: 0px;
 
 }
+.pretend:hover{
+    scale: 1.2;
+}
 .netflix{
     position: absolute;
     top: 4vh;
