@@ -11,6 +11,9 @@
     left: 0px;
 
 }
+.pretend{
+    cursor: pointer;
+}
 .pretend:hover{
     scale: 1.2;
 }
@@ -188,4 +191,85 @@ hr{
     height: 20vh;
     width: 50vw;
     color: white;
+}
+.frequent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    color: white;
+    background-color: black;
+}
+.ques{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70vw;
+    height: 10vh;
+    background-color:dimgrey;
+    padding-left: 2vh;
+    padding-right: 4vh;
+    cursor: pointer;
+}
+.frequent h1{
+    font-size: 8vh;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    font-weight: 800;
+}
+.ques h6{
+    font-size: 4vh;
+}
+.ques span{
+    font-weight: 800;
+    font-size: 7vh;
+    cursor: pointer;
+}
+.membership{
+    margin-top: 4vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.membership{
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+.membership p{
+    font-size: 3vh;
+}
+.start_memb input{
+    width: 25vw;
+    height: 7vh;
+    background-color: black;
+    color: white;
+    font-size: 2.8vh;
+    padding-left: 10px;
+    margin-top: 3vh;
+}
+.start_memb button{
+    height: 7.7vh;
+    width: 12vw;
+    font-size: 3vh;
+    font-weight: 700;
+    color: white;
+    background-color: red;
+    cursor: pointer;
+}
+.footer{
+    background-color: black;
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    padding-top: 15vh;
+    padding-left: 10vw;
+    padding-bottom: 10vh;
+}
+.link_foot{
+    color: white;
+    cursor: pointer;
+    margin: 2vh;
+    font-size: 15px;
 }
